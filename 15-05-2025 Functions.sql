@@ -1,5 +1,5 @@
 use sakila;
--- distinct (it will count unique value)  count 
+-- distinct (it will count unique value, and removes duplicate values)  count 
 
 select distinct(first_name) from actor;
 select count(first_name) from actor;
